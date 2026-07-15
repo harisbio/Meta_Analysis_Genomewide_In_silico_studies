@@ -44,7 +44,7 @@ A **fully local, zero-API** tool for extracting structured metadata from genome-
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/mharis01862/Meta_Analysis_Genomewide_In_silico_studies/tree/6de179e752269c38585d892784c6fee3abb5a2db/Genomewide_PDF_Local_Extractor
+git clone https://github.com/harisbio/Meta_Analysis_Genomewide_In_silico_studies/tree/6de179e752269c38585d892784c6fee3abb5a2db/Genomewide_PDF_Local_Extractor
 cd genomewide-pdf-extractor
 ```
 
