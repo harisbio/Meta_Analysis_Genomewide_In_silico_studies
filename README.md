@@ -33,8 +33,7 @@ The program used to extract data from the included articles is published separat
 │       ├── extra_figures.py
 │       └── family_names.py           gene family name harmonization
 ├── data/README.md                    which data files the scripts expect
-└── legacy/genomewide_pdf_local_extractor/
-                                      the earlier rule-based extraction pipeline (see below)
+
 ```
 
 ## Data access
@@ -89,13 +88,6 @@ Paths can be changed without editing the code:
 
 All other results are counts, proportions and medians. Unless stated otherwise, percentages use all 310 studies as
 the denominator; where a variable was not reported by all studies, the denominator is the studies that reported it.
-
-## Earlier extraction pipeline
-
-`legacy/genomewide_pdf_local_extractor/` is the rule-based pipeline, with optional local language-model repair through
-Ollama, that produced the first version of the dataset. It is kept here for transparency. The data reported in the
-article were extracted with gene-family-extractor (DOI: 10.5281/zenodo.24104217) and compared with this earlier
-extraction field by field.
 
 ## Citation
 
