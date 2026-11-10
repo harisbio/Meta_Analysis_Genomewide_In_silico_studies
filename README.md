@@ -7,7 +7,7 @@ This repository contains the scripts that produce every figure and every value r
 Supplementary File. It contains code only: the datasets and the manuscript are not included.
 
 The program used to extract data from the included articles is published separately:
-**gene-family-extractor** ([extraction repository URL]).
+**gene-family-extractor** [![DOI](https://zenodo.org/badge/1452460835.svg)](https://doi.org/10.5281/zenodo.24104216)
 
 ## Contents
 
@@ -94,7 +94,7 @@ the denominator; where a variable was not reported by all studies, the denominat
 
 `legacy/genomewide_pdf_local_extractor/` is the rule-based pipeline, with optional local language-model repair through
 Ollama, that produced the first version of the dataset. It is kept here for transparency. The data reported in the
-article were extracted with gene-family-extractor ([extraction repository URL]) and compared with this earlier
+article were extracted with gene-family-extractor (DOI: 10.5281/zenodo.24104217) and compared with this earlier
 extraction field by field.
 
 ## Citation
