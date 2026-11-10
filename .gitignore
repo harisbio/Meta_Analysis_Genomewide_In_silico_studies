@@ -1,0 +1,22 @@
+# data and outputs are never committed
+data/*
+!data/README.md
+output/
+
+# manuscripts and documents
+*.docx
+*.doc
+*.pdf
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.mplconfig/
+
+# editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
